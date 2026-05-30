@@ -1,0 +1,105 @@
+﻿{
+  "total_count": 1,
+  "jobs": [
+    {
+      "id": 78667123264,
+      "run_id": 26690948628,
+      "workflow_name": "Deploy to GitHub Pages",
+      "head_branch": "main",
+      "run_url": "https://api.github.com/repos/kadu1155/Portfolio01/actions/runs/26690948628",
+      "run_attempt": 1,
+      "node_id": "CR_kwDOSsbvPM8AAAASUO0KQA",
+      "head_sha": "15a34e1f6e9e9ddb2604c8ffaf4aec1a703255b2",
+      "url": "https://api.github.com/repos/kadu1155/Portfolio01/actions/jobs/78667123264",
+      "html_url": "https://github.com/kadu1155/Portfolio01/actions/runs/26690948628/job/78667123264",
+      "status": "completed",
+      "conclusion": "failure",
+      "created_at": "2026-05-30T17:58:51Z",
+      "started_at": "2026-05-30T17:58:54Z",
+      "completed_at": "2026-05-30T17:59:03Z",
+      "name": "build-and-deploy",
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1,
+          "started_at": "2026-05-30T17:58:55Z",
+          "completed_at": "2026-05-30T17:58:56Z"
+        },
+        {
+          "name": "Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2,
+          "started_at": "2026-05-30T17:58:56Z",
+          "completed_at": "2026-05-30T17:58:56Z"
+        },
+        {
+          "name": "Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3,
+          "started_at": "2026-05-30T17:58:56Z",
+          "completed_at": "2026-05-30T17:59:01Z"
+        },
+        {
+          "name": "Run npm install",
+          "status": "completed",
+          "conclusion": "failure",
+          "number": 4,
+          "started_at": "2026-05-30T17:59:01Z",
+          "completed_at": "2026-05-30T17:59:01Z"
+        },
+        {
+          "name": "Run npm run build",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 5,
+          "started_at": "2026-05-30T17:59:01Z",
+          "completed_at": "2026-05-30T17:59:01Z"
+        },
+        {
+          "name": "Run peaceiris/actions-gh-pages@v4",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 6,
+          "started_at": "2026-05-30T17:59:01Z",
+          "completed_at": "2026-05-30T17:59:01Z"
+        },
+        {
+          "name": "Post Run actions/setup-node@v4",
+          "status": "completed",
+          "conclusion": "skipped",
+          "number": 11,
+          "started_at": "2026-05-30T17:59:01Z",
+          "completed_at": "2026-05-30T17:59:01Z"
+        },
+        {
+          "name": "Post Run actions/checkout@v4",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12,
+          "started_at": "2026-05-30T17:59:01Z",
+          "completed_at": "2026-05-30T17:59:01Z"
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13,
+          "started_at": "2026-05-30T17:59:01Z",
+          "completed_at": "2026-05-30T17:59:01Z"
+        }
+      ],
+      "check_run_url": "https://api.github.com/repos/kadu1155/Portfolio01/check-runs/78667123264",
+      "labels": [
+        "ubuntu-latest"
+      ],
+      "runner_id": 1000000012,
+      "runner_name": "GitHub Actions 1000000012",
+      "runner_group_id": 0,
+      "runner_group_name": "GitHub Actions"
+    }
+  ]
+}
