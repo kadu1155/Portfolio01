@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: loveportfolio
+    name: kadu1155-portfolio01
     env: node
     plan: free
     branch: main
