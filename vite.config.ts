@@ -15,6 +15,6 @@ export default defineConfig({
   },
   preview: {
     host: "0.0.0.0",
-    allowedHosts: ["kadu1155-portfolio01.onrender.com"],
+    allowedHosts: "all",
   },
 });
