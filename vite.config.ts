@@ -13,4 +13,8 @@ export default defineConfig({
     // nitro/vite builds from this
     server: { entry: "server" },
   },
+  preview: {
+    host: "0.0.0.0",
+    allowedHosts: ["kadu1155-portfolio01.onrender.com"],
+  },
 });
